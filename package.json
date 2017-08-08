@@ -1,0 +1,26 @@
+{
+  "name": "aligner-typescript",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Typescript support for aligner",
+  "keywords": [
+    "aligner",
+    "alignment",
+    "align",
+    "typescript",
+    "javascript"
+  ],
+  "repository": "https://github.com/marcghorayeb/atom-aligner-typescript",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0"
+  },
+  "dependencies": {},
+  "providedServices": {
+    "aligner.provider": {
+      "versions": {
+        "1.0.0": "getProvider"
+      }
+    }
+  }
+}
